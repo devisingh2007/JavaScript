@@ -220,7 +220,7 @@ secondLargest2([1, 2, 3, 4, 5, 6, 7, 8, 99, 10]); //output: 2
 
 
 */
-// Q69. Second Largest Element
+// Q70. Second Largest Element
 // Assume array has at least 2 distinct elements.
 
 function secondsmallest(arr)
