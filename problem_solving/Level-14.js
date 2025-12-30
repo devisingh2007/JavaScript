@@ -258,4 +258,10 @@ function sumOfEvenNumbersInArray(array) {
     return sum;
 }
 console.log(sumOfEvenNumbersInArray([1, 2, 3, 4, 5, 6]));
+function sumOfEvenNumbersInArray2(array)
+{
 
+let sum=array.reduce((csum,data)=>csum+(data%2==0?data:0),0 );
+return sum;
+}
+console.log(sumOfEvenNumbersInArray2([1, 2, 3, 4, 5, 6]));
