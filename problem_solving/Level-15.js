@@ -1,5 +1,5 @@
 // Q181. Sum of Odd Numbers in Array
-// Return sum of only odd numbers.
+// Return sum of only odd number.
 function sumOfOddNumbersInArray(array) {
     let sum = 0;
     array.forEach(element => {
